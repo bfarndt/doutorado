@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_change_planning"
+    tools:context=".FullscreenActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnCloseChangePlanning"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="0dp"
+            android:background="@android:drawable/btn_dialog"
+            android:text=""
+            android:onClick="closeChangePlanning"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnChangePhonologicalProcess"
+            android:layout_width="175dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="75dp"
+            android:background="@android:color/transparent"
+            android:text=""
+            android:onClick="nextPlanning"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btnChangeTargetPhoneme"
+            android:layout_width="175dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="75dp"
+            android:background="@android:color/transparent"
+            android:text=""
+            android:onClick="nextPlanning"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btnChangeInterventionApproach"
+            android:layout_width="175dp"
+            android:layout_height="210dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginTop="75dp"
+            android:background="@android:color/transparent"
+            android:text=""
+            android:onClick="nextPlanning"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

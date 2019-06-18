@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ic_planning_phase"
+    tools:context=".FullscreenActivity">
+
+    <Button
+        android:id="@+id/btnSavePlanning"
+        android:layout_width="100dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="9dp"
+        android:backgroundTint="#41A1AA"
+        android:drawableLeft="@drawable/ic_save_black_24dp"
+        android:onClick="savePlanning"
+        android:text="Save" />
+</RelativeLayout>

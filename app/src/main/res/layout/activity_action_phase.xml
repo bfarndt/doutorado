@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_action_phase"
+    tools:context=".FullscreenActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnChangePlanning"
+            android:layout_width="105dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:text=""
+            android:onClick="openChangePlanning"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btnChangeStrategy"
+            android:layout_width="225dp"
+            android:layout_height="110dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"
+            android:text=""
+            android:onClick="openChangeStrategy"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/btnCloseGame"
+            android:layout_width="225dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginStart="200dp"
+            android:background="@android:color/transparent"
+            android:text=""
+            android:onClick="closeGame"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btnCaseData"
+            android:layout_width="60dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginBottom="45dp"
+            android:background="@android:color/transparent"
+            android:text=""
+            android:onClick="openChildRecords"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

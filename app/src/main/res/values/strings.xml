@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Doutorado</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="title_activity_strategy">Strategy</string>
+
+    <string name="dialog_exit_game_title">Close the Game</string>
+    <string name="dialog_exit_game_message">Do you want to close the game?</string>
+
+    <string-array name="strategies_array">
+        <item>Strategy 1</item>
+        <item>Strategy 2</item>
+        <item>Strategy 3</item>
+        <item>Strategy 4</item>
+        <item>Strategy 5</item>
+    </string-array>
+
+    <string-array name="materials_array">
+        <item>Material 1</item>
+        <item>Material 2</item>
+        <item>Material 3</item>
+        <item>Material 4</item>
+        <item>Material 5</item>
+        <item>Material 6</item>
+    </string-array>
+
+    <string-array name="target_words_array">
+        <item>Target-Word 1</item>
+        <item>Target-Word 2</item>
+        <item>Target-Word 3</item>
+        <item>Target-Word 4</item>
+        <item>Target-Word 5</item>
+    </string-array>
+</resources>
